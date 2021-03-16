@@ -37,9 +37,9 @@ def main():
 
 main()
 print '[1] start the attack'
-print '[2] exit'
+print '[2] exit' 
 option = input('==>')
-if option == 1:
+if option == 1: 
    file_path = raw_input('enter the path of passwords file :')
 else:
    system('clear')
@@ -72,3 +72,4 @@ def login():
          else:
             print '[!] password not found => ' + password
 login()
+..
